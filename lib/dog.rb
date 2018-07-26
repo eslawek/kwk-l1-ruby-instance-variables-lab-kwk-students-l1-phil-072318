@@ -19,4 +19,4 @@ end #class dog
 
 Fido = Dog.new("Fido", "husky")
 
-puts 
+puts Fido.name
