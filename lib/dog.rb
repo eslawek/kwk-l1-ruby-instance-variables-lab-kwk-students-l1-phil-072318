@@ -7,6 +7,6 @@ class Dog
   end # initialize
   
   def return_name
-    
+    @name
   
 end #class dog
