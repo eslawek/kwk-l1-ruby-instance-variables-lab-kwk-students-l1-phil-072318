@@ -6,7 +6,7 @@ class Dog
     @breed=breed
   end # initialize
   
-  def name
+  def return_name
     @name
   end #name
   
@@ -19,4 +19,4 @@ end #class dog
 
 fido = Dog.new("Fido", "husky")
 
-puts fido.name
+puts fido.return_name
