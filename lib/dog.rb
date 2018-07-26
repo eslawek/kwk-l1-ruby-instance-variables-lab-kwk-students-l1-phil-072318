@@ -10,7 +10,7 @@ class Dog
     @name
   end #name
   
-  def breed
+  def return_breed
     @breed
   end #return_name
   
@@ -19,4 +19,4 @@ end #class dog
 
 fido = Dog.new("Fido", "husky")
 
-puts fido.return_name
+puts fido.return_breed
