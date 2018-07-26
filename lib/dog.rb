@@ -8,5 +8,15 @@ class Dog
   
   def return_name
     @name
+  end #return_name
+  
+  def return_breed
+    @breed
+  end #return_name
   
 end #class dog
+
+
+Fido = Dog.new("Fido", "husky")
+
+puts 
