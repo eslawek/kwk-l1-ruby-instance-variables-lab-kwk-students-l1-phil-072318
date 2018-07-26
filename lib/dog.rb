@@ -6,11 +6,11 @@ class Dog
     @breed=breed
   end # initialize
   
-  def return_name
+  def name
     @name
-  end #return_name
+  end #name
   
-  def return_breed
+  def breed
     @breed
   end #return_name
   
